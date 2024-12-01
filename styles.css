@@ -1,0 +1,306 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(images/background1.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 10px 8%;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+nav img {
+  width: 150px;
+  cursor: pointer;
+}
+
+nav button {
+  background-color: red;
+  border-radius: 5px;
+  color: white;
+  padding: 7px 17px;
+  outline: 0;
+  border: 0;
+  margin-left: 20px;
+}
+
+.langauge-btn {
+  display: inline-flex;
+  align-items: center;
+  background: transparent;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+
+.langauge-btn i {
+  margin-left: 5px;
+  padding: 2px 10px;
+}
+
+.middle {
+  color: white;
+  margin-top: 10%;
+  display: flex;
+  margin-left: 20%;
+}
+
+.middle h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.middle-content h2,
+h3 {
+  line-height: 2.6;
+  font-weight: 400;
+}
+
+.middle-content h2 {
+  text-align: center;
+}
+
+.input {
+  display: flex;
+  margin-top: 3%;
+}
+
+.input button,
+input {
+  margin-left: 40px;
+  border-radius: 5px;
+}
+
+.input input {
+  color: rgba(255, 255, 255, 0.7);
+  background: transparent;
+  border: 1px solid;
+  padding: 5px 10px;
+  width: 80%;
+  height: 7vh;
+}
+
+.input button {
+  background-color: red;
+  color: white;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  height: 7vh;
+  width: 40%;
+}
+
+hr {
+  height: 10px;
+  background-color: rgb(30, 30, 30);
+  border: 0;
+}
+
+.main {
+  background-color: black;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.main-content-a {
+  margin-left: 6%;
+  width: 45%;
+  line-height: 2;
+}
+
+.main-content-b {
+  margin: 10% 15%;
+}
+
+.main-content-a h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+.main-content-a p {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+/* second part */
+.main-content-1 {
+  margin-left: 15%;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+.main-content-2 {
+  line-height: 2;
+  margin-left: 5%;
+  margin-top: 10%;
+  margin-bottom: 9%;
+}
+
+.main-content-2 h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+.main-content-2 p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  width: 70%;
+}
+
+.main-content-3 {
+  margin-left: 17%;
+  width: 45%;
+  line-height: 2;
+  padding: 5%;
+}
+
+.main-content-3 h1 {
+  font-size: 3.5rem;
+}
+
+.main-content-3 p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  width: 70%;
+}
+
+.ask {
+  background-color: black;
+  color: #fff;
+}
+
+.ask h1 {
+  text-align: center;
+  padding-top: 4%;
+  padding-bottom: 15px;
+  font-size: 3rem;
+}
+
+.ask ul {
+  list-style: none;
+}
+
+.ask li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(30, 30, 30);
+  margin-left: 10%;
+  width: 80%;
+  color: #fff;
+  padding: 20px 15px;
+  margin-bottom: 10px;
+  font-size: 2rem;
+}
+
+.ask li:hover {
+  background-color: rgb(46, 44, 44);
+}
+
+.list-items h2 {
+  padding-bottom: 12px;
+}
+
+.ask h3 {
+  margin-left: 20%;
+  margin-top: 3%;
+}
+
+.ask input[type="radio"] {
+  display: none;
+}
+
+.ask .content {
+  background: #303030;
+  text-align: left;
+  max-height: 0;
+  overflow: hidden;
+  display: none;
+}
+
+.ask input[type="radio"]:checked + label + .content {
+  max-height: 600px;
+  padding: 30px 20px;
+  display: block;
+}
+
+.input2 {
+  display: flex;
+  margin-top: 0.5rem;
+  margin-left: 20%;
+  margin-bottom: 7%;
+}
+
+.input2 button {
+  margin-left: 40px;
+  border-radius: 5px;
+}
+
+.input2 input {
+  color: rgba(255, 255, 255, 0.7);
+  background: transparent;
+  border: 1px solid;
+  padding: 5px 10px;
+  width: 50%;
+  height: 7vh;
+}
+
+.input2 button {
+  background-color: red;
+  color: white;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  height: 7vh;
+  width: 20%;
+}
+
+.footer {
+  background-color: black;
+  width: 100%;
+  /* height: 100vh; */
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.footer .inside {
+  display: flex;
+  padding-left: 7.5%;
+  padding-bottom: 5%;
+}
+
+.footer ul {
+  list-style: none;
+  text-decoration: underline;
+  padding-left: 8%;
+}
+
+.footer li {
+  margin-bottom: 12%;
+}
+.footer p {
+  padding-top: 3%;
+  padding-bottom: 2%;
+  padding-left: 14.5%;
+}
+
+.footer button {
+  color: white;
+  background-color: rgb(30, 30, 30);
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  padding: 7px 20px;
+  border-radius: 5px;
+}
